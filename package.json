@@ -1,0 +1,23 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Namaste React-Course code along",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambarvadai/namaste-react.git"
+  },
+  "keywords": [],
+  "author": "Anirudh Chandrasekaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambarvadai/namaste-react/issues"
+  },
+  "homepage": "https://github.com/sambarvadai/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
