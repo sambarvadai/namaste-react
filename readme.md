@@ -1,1 +1,1 @@
-Namaste React-Sample Readme
+This is the repository to store all progress from the course Namaste React.
