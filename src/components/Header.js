@@ -1,7 +1,7 @@
 //Keep file name the same as component name: Good practice to do so.
 import { useState } from "react";
 import { LOGO_URL } from "./utils/constants";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 const Header = () =>{
     const [btnState,setState] = useState("Login");
     return(

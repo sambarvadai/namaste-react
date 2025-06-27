@@ -5,7 +5,7 @@ import Body from "./components/Body";
 import AboutLayout from "./components/About";
 import ContactLayout from "./components/Contact";
 import RestaurantMenu from "./components/RestaurantMenu";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router";
 //Experimenting a bit with inline styles
 const inLineStyle ={
     backgroundColor: "#f0f0f0",
@@ -26,7 +26,7 @@ const appRouter = createBrowserRouter([
         errorElement: <div>Router Error: Check console for details</div>,
         children:[
             {
-                index:true,
+                path:"/",
                 element:<Body/>
             },
             {
